@@ -165,15 +165,34 @@ const App = () => {
             
             <div className="flex justify-center">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-orange-400 shadow-2xl">
-                  <img 
-                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARC..."
-                    alt="Yuvaraj M"
-                    className="w-full h-full object-cover"
-                  />
+                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-orange-400 shadow-2xl bg-gradient-to-br from-orange-400 to-purple-600 p-1">
+                  <div className="w-full h-full rounded-full bg-gray-700 flex items-center justify-center">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">👨🏽‍💻</div>
+                      <div className="text-orange-400 font-bold text-xl">Yuvaraj M</div>
+                      <div className="text-gray-300 text-sm">CSE Student</div>
+                      <div className="text-purple-400 text-sm">@ Atria Institute</div>
+                    </div>
+                  </div>
                 </div>
-                <div className="absolute -top-4 -right-4 w-8 h-8 bg-green-500 rounded-full border-4 border-gray-800"></div>
+                <div className="absolute -top-4 -right-4 w-8 h-8 bg-green-500 rounded-full border-4 border-gray-800 flex items-center justify-center">
+                  <div className="w-3 h-3 bg-white rounded-full"></div>
+                </div>
               </div>
+            </div>
+          </div>
+          
+          <div className="mt-16">
+            <h3 className="text-2xl font-semibold mb-8 text-center">Professional Experience</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              {experiences.map((exp, index) => (
+                <div key={index} className="bg-gray-700 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold text-orange-400 mb-2">{exp.title}</h4>
+                  <div className="text-purple-400 font-medium mb-2">{exp.company}</div>
+                  <div className="text-gray-400 text-sm mb-3">{exp.duration}</div>
+                  <p className="text-gray-300">{exp.description}</p>
+                </div>
+              ))}
             </div>
             
             <div className="space-y-6">
