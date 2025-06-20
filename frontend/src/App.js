@@ -117,10 +117,11 @@ const App = () => {
               Connect with me
             </button>
             <a 
-              href="#" 
-              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+              href="/Yuvaraj_M_Resume.pdf"
+              download="Yuvaraj_M_Resume.pdf"
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors text-center"
             >
-              My Resume
+              📄 Download Resume
             </a>
           </div>
         </div>
