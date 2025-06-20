@@ -313,6 +313,13 @@ const App = () => {
             >
               GitHub
             </a>
+            <a 
+              href="/Yuvaraj_M_Resume.pdf"
+              download="Yuvaraj_M_Resume.pdf"
+              className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+            >
+              📄 Resume
+            </a>
           </div>
         </div>
       </section>
