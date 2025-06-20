@@ -194,18 +194,6 @@ const App = () => {
                 </div>
               ))}
             </div>
-            
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold mb-6">Experience</h3>
-              {experiences.map((exp, index) => (
-                <div key={index} className="bg-gray-700 p-6 rounded-lg">
-                  <h4 className="text-xl font-semibold text-orange-400 mb-2">{exp.title}</h4>
-                  <div className="text-purple-400 font-medium mb-2">{exp.company}</div>
-                  <div className="text-gray-400 text-sm mb-3">{exp.duration}</div>
-                  <p className="text-gray-300">{exp.description}</p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
