@@ -163,6 +163,19 @@ const App = () => {
               </div>
             </div>
             
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-orange-400 shadow-2xl">
+                  <img 
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARC..."
+                    alt="Yuvaraj M"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -top-4 -right-4 w-8 h-8 bg-green-500 rounded-full border-4 border-gray-800"></div>
+              </div>
+            </div>
+            
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold mb-6">Experience</h3>
               {experiences.map((exp, index) => (
