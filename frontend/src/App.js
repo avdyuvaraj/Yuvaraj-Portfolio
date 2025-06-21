@@ -100,7 +100,7 @@ const App = () => {
               I'm <span className="text-orange-400">Yuvaraj</span>,
             </h1>
             <h2 className="text-3xl md:text-4xl font-semibold text-purple-400 mb-6">
-              Software Developer & CS Student
+              Research & Development , Software developer & CS Student
             </h2>
           </div>
           
@@ -167,14 +167,12 @@ const App = () => {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-orange-400 shadow-2xl bg-gradient-to-br from-orange-400 to-purple-600 p-1">
-                  <div className="w-full h-full rounded-full bg-gray-700 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-6xl mb-4">👨🏽‍💻</div>
-                      <div className="text-orange-400 font-bold text-xl">Yuvaraj M</div>
-                      <div className="text-gray-300 text-sm">CSE Student</div>
-                      <div className="text-purple-400 text-sm">@ Atria Institute</div>
-                    </div>
-                  </div>
+                   <img 
+                      src="/yuvaraj-profile.jpg"
+                      alt="Yuvaraj M - Software Developer"
+                      className="w-full h-full object-cover rounded-full"
+                    />
+
                 </div>
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-green-500 rounded-full border-4 border-gray-800 flex items-center justify-center">
                   <div className="w-3 h-3 bg-white rounded-full"></div>
