@@ -22,11 +22,7 @@ A modern, responsive portfolio website built with React and FastAPI, showcasing 
 - **Tailwind CSS 3.4.17** - Utility-first CSS framework
 - **Axios 1.8.4** - HTTP client for API requests
 
-### Backend
-- **FastAPI 0.110.1** - Modern Python web framework
-- **MongoDB** - NoSQL database with Motor async driver
-- **Pydantic** - Data validation and serialization
-- **Python-dotenv** - Environment variable management
+
 
 ### DevOps & Tools
 - **Supervisor** - Process management
@@ -51,27 +47,16 @@ A modern, responsive portfolio website built with React and FastAPI, showcasing 
    cd portfolio-website
    ```
 
-2. **Backend Setup**
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   ```
 
-3. **Frontend Setup**
+2. **Frontend Setup**
    ```bash
    cd frontend
    yarn install
    ```
 
-4. **Environment Configuration**
+3. **Environment Configuration**
    
    Create `.env` files:
-   
-   **Backend (`/backend/.env`)**:
-   ```env
-   MONGO_URL="mongodb://localhost:27017"
-   DB_NAME="portfolio_database"
-   ```
    
    **Frontend (`/frontend/.env`)**:
    ```env
@@ -92,16 +77,9 @@ sudo supervisorctl status
 
 # View logs
 sudo supervisorctl tail -f frontend
-sudo supervisorctl tail -f backend
 ```
 
 **Option 2: Manual Start**
-
-**Backend:**
-```bash
-cd backend
-uvicorn server:app --host 0.0.0.0 --port 8001 --reload
-```
 
 **Frontend:**
 ```bash
@@ -120,10 +98,6 @@ yarn build
 
 ```
 portfolio-website/
-├── 📁 backend/                 # FastAPI backend
-│   ├── 📄 server.py           # Main FastAPI application
-│   ├── 📄 requirements.txt    # Python dependencies
-│   └── 📄 .env               # Backend environment variables
 ├── 📁 frontend/               # React frontend
 │   ├── 📁 src/
 │   │   ├── 📄 App.js         # Main React component
