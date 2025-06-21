@@ -202,11 +202,6 @@ The portfolio is fully responsive and optimized for:
 
 ## 🌐 API Endpoints
 
-### Backend API Routes
-- `GET /api/` - Health check endpoint
-- `POST /api/status` - Create status check
-- `GET /api/status` - Get all status checks
-
 ## 🔧 Deployment
 
 ### Local Development
@@ -223,9 +218,6 @@ The portfolio is fully responsive and optimized for:
 
 **Production Environment Variables:**
 ```env
-# Backend
-MONGO_URL="your-production-mongodb-url"
-DB_NAME="portfolio_prod"
 
 # Frontend
 REACT_APP_BACKEND_URL="https://your-domain.com"
