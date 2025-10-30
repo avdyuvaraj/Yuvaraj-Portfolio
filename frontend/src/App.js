@@ -117,8 +117,8 @@ const App = () => {
               Connect with me
             </button>
             <a 
-              href="/Yuvaraj_M_Resume.pdf"
-              download="Yuvaraj_M_Resume.pdf"
+              href="/Yuvaraj_Cybersecurity _Resume"
+              download="Yuvaraj_Cybersecurity _Resume"
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors text-center"
             >
               📄 Download Resume
@@ -312,8 +312,8 @@ const App = () => {
               GitHub
             </a>
             <a 
-              href="/Yuvaraj_M_Resume.pdf"
-              download="Yuvaraj_M_Resume.pdf"
+              href="/Yuvaraj_Cybersecurity _Resume"
+              download="Yuvaraj_Cybersecurity _Resume"
               className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
             >
               📄 Resume
